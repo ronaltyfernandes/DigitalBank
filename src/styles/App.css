@@ -1,0 +1,36 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* evita scroll horizontal */
+}
+
+body {
+}
+
+:root {
+  margin: 0;
+  padding: 0;
+  background: var(--color-white);
+}
+
+header {
+  background-color: var(--color-white-header);
+}
+
+/* Só no mobile */
+@media (max-width: 768px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  :root {
+    line-height: 1.2;
+    overflow-x: hidden;
+  }
+
+  p {
+    line-height: 1;
+  }
+}
